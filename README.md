@@ -49,7 +49,7 @@ class Eletronico(Produto):
 
 # Execução:
 
-# Criando um notebook com preço base de R$ 3000 e 5 unidades em estoque
+Criando um notebook com preço base de R$ 3000 e 5 unidades em estoque
 notebook = Eletronico("Notebook Gamer", 3000.0, 5)
 
 # Tentando comprar 2 unidades
