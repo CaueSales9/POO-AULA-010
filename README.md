@@ -25,7 +25,7 @@ Se não houver estoque:
 
 Exemplo de Uso:
 
-# Exemplo da Classe Pai (Dependência)
+# Exemplo da Classe Pai
 class Produto:
     def __init__(self, nome, preco_base, estoque):
         self.nome = nome
