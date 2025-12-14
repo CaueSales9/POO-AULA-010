@@ -26,7 +26,7 @@ Se não houver estoque:
 Exemplo de Uso:
 
 # Exemplo da Classe Pai
-class Produto:
+'''class Produto:
     def __init__(self, nome, preco_base, estoque):
         self.nome = nome
         self.preco_base = preco_base
@@ -36,7 +36,7 @@ class Produto:
         if self.estoque >= qntd:
             self.estoque -= qntd
             return True
-        return False
+        return False'''
 
 # Classe Eletronico
 class Eletronico(Produto):
