@@ -69,3 +69,6 @@ else:
     
 # Pré-requisitos
 Python 3.x
+
+# UML do programa
+![Texto Alternativo](https://github.com/CaueSales9/POO-AULA-010/blob/f990bbf30bd7061113332d001e4f85dac72bf580/UML.png)
