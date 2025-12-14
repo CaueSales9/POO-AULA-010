@@ -1,4 +1,4 @@
-Sistema de Precificação de Eletrônicos
+# Sistema de Precificação de Eletrônicos
 Este repositório contém a implementação da classe Eletronico, uma extensão da classe base Produto. O código segue a regra de usar os 4 pilares de POO.
 
 Funcionalidades
