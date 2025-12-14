@@ -52,7 +52,7 @@ class Eletronico(Produto):
 Criando um notebook com preço base de R$ 3000 e 5 unidades em estoque
 notebook = Eletronico("Notebook Gamer", 3000.0, 5)
 
-# Tentando comprar 2 unidades
+Tentando comprar 2 unidades
 quantidade = 2
 preco_final = notebook.calcular_preco_final(quantidade)
 
