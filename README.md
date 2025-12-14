@@ -26,7 +26,7 @@ Se não houver estoque:
 Exemplo de Uso:
 
 # Exemplo da Classe Pai
-'''class Produto:
+class Produto:
     def __init__(self, nome, preco_base, estoque):
         self.nome = nome
         self.preco_base = preco_base
@@ -36,16 +36,16 @@ Exemplo de Uso:
         if self.estoque >= qntd:
             self.estoque -= qntd
             return True
-        return False'''
+        return False
 
 # Classe Eletronico
-class Eletronico(Produto):
+'''class Eletronico(Produto):
     def calcular_preco_final(self, qntd):
         if self._baixar_estoque(qntd):
             total = self.preco_base * qntd
             imposto = total * 0.20
             return total + imposto
-        return -1
+        return -1'''
 
 # Execução:
 
